@@ -108,9 +108,8 @@ The goal is to clean the dataset, handle missing and inconsistent values, extrac
 **Ajay Singh**  
 📌 Aspiring Data Analyst | Python Enthusiast
 
-🔗 **LinkedIn:** www.linkedin.com/in/
-ajay-singh-data
-Vanity URL name
+🔗 **LinkedIn:** www.linkedin.com/in/ajay-singh-data
+
 
 
 ---
