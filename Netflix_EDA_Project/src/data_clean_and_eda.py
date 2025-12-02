@@ -164,7 +164,11 @@ plt.show()
 # ==========================================
 # GRAPH 5: Top 10 Countries (Horizontal Bar)
 # ==========================================
-country_counts = df['country'].value_counts().head(10)
+all_countries = df['country'].value_counts()
+if 'Unknown' in all_countries.index:
+  all_countries = all_countries.drop('Unknown')
+  
+country_counts = all_countries.head(10)
 plt.figure(figsize = (12,6))
 plt.barh(country_counts.index, country_counts.values, color = 'teal')
 plt.xlabel('Number of Shows') # Label correct kiya
