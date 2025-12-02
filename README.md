@@ -44,19 +44,18 @@ Here are some key charts generated from the analysis:
 
 ### 1. Movies vs TV Shows
 *(Comparison of total content available)*
-![Movies vs TV Shows](movies_tvShows_comparison.png)
+![Movies vs TV Shows](Netflix_EDA_Project/movies_tvShows_comparison.png)
 
 ### 2. Growth of Content Over Years
 *(How Netflix content library expanded over time)*
-![Content Growth](release_year_scatter.png)
+![Content Growth](Netflix_EDA_Project/release_year_trend.png)
 
 ### 3. Distribution of Ratings
 *(Most common age ratings on Netflix)*
-![Ratings Pie Chart](Content_ratings_pie.png)
+![Ratings Pie Chart](Netflix_EDA_Project/Content%20ratings%20pie.png)
 
-*(Note: Ensure you have uploaded the .png image files to your repository for these images to appear)*
 
----
+
 
 ## 📈 Key Insights Derived
 
