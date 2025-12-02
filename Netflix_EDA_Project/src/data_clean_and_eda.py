@@ -127,7 +127,8 @@ others_count =  rating_counts.iloc[5:].sum()
 final_ratings = top_5.copy()
 final_ratings['Others'] = others_count 
 plt.figure(figsize = (8,8))
-plt.pie(final_ratings.values, labels = final_ratings.index, colors = ['#ff9999','#66b3ff','#99ff99','#ffcc99','#c2c2f0','#ffb3e6'], autopct= '%1.1f%%', startangle= 90)
+my_explode = [0.05, 0, 0, 0, 0, 0]
+plt.pie(final_ratings.values, labels = final_ratings.index, colors = ['#ff9999','#66b3ff','#99ff99','#ffcc99','#c2c2f0','#ffb3e6'], autopct= '%1.1f%%', startangle= 90, explode=my_explode, shadow = True)
 plt.title('Percentage of Content Ratings (Top 5 & Others)')
 plt.tight_layout()
 plt.savefig('Content ratings pie.png')
